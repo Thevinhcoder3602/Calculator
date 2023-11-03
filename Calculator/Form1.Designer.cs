@@ -104,13 +104,14 @@ namespace Calculator
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.Red;
             this.button2.Location = new System.Drawing.Point(227, 278);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(88, 39);
             this.button2.TabIndex = 2;
-            this.button2.Text = "tru";
+            this.button2.Text = "trừ";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
